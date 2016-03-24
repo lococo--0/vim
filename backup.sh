@@ -1,5 +1,4 @@
 #!/bin/sh
 
-cp ~/.vim/plugins.vim ./
-cp ~/.vim/plugins_config.vim ./
+cp ~/.vim ./vim
 cp ~/.vimrc ./vimrc

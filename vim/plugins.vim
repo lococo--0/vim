@@ -11,14 +11,13 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 Bundle 'gmarik/Vundle.vim'
-Bundle 'junegunn/seoul256.vim'
+Bundle 'jpo/vim-railscasts-theme'
 Bundle 'majutsushi/tagbar'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'kien/ctrlp.vim'
 
 Bundle 'honza/vim-snippets'
-Bundle 'SirVer/ultisnips'
 
 Bundle 'zhaocai/GoldenView.Vim'
 Bundle 'scrooloose/syntastic'
@@ -28,7 +27,7 @@ Bundle 'yonchu/accelerated-smooth-scroll'
 Bundle 'vim-scripts/cmdline-completion'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'spiiph/vim-space'
-Bundle 'nathanaelkane/vim-indent-guides'
+"Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'tpope/vim-surround'
 Bundle 'rking/ag.vim'
 
@@ -36,7 +35,6 @@ Bundle 'othree/javascript-libraries-syntax.vim'
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'pangloss/vim-javascript'
 
-Bundel 'mxw/vim-jsx'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'hail2u/vim-css3-syntax'
 Bundle 'ap/vim-css-color'
@@ -48,7 +46,7 @@ Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'elzr/vim-json'
 
 "Bundle 'marijnh/tern_for_vim'
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 
 " To use in col control.
 Bundle 'godlygeek/tabular'
