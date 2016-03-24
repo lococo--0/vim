@@ -10,49 +10,49 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
-Bundle 'gmarik/Vundle.vim'
-Bundle 'jpo/vim-railscasts-theme'
-Bundle 'majutsushi/tagbar'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'kien/ctrlp.vim'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'jpo/vim-railscasts-theme'
+Plugin 'majutsushi/tagbar'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'kien/ctrlp.vim'
 
-Bundle 'honza/vim-snippets'
+Plugin 'honza/vim-snippets'
 
-Bundle 'zhaocai/GoldenView.Vim'
-Bundle 'scrooloose/syntastic'
-Bundle 'jiangmiao/auto-pairs'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'yonchu/accelerated-smooth-scroll'
-Bundle 'vim-scripts/cmdline-completion'
-Bundle 'jistr/vim-nerdtree-tabs'
-Bundle 'spiiph/vim-space'
-"Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'tpope/vim-surround'
-Bundle 'rking/ag.vim'
+Plugin 'zhaocai/GoldenView.Vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'yonchu/accelerated-smooth-scroll'
+Plugin 'vim-scripts/cmdline-completion'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'spiiph/vim-space'
+"Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'tpope/vim-surround'
+Plugin 'rking/ag.vim'
 
-Bundle 'othree/javascript-libraries-syntax.vim'
-Bundle 'jelera/vim-javascript-syntax'
-Bundle 'pangloss/vim-javascript'
+Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'pangloss/vim-javascript'
 
-Bundle 'cakebaker/scss-syntax.vim'
-Bundle 'hail2u/vim-css3-syntax'
-Bundle 'ap/vim-css-color'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'hail2u/vim-css3-syntax'
+Plugin 'ap/vim-css-color'
 
-Bundle 'mattn/emmet-vim'
-Bundle 'othree/html5.vim'
-Bundle 'mustache/vim-mustache-handlebars'
+Plugin 'mattn/emmet-vim'
+Plugin 'othree/html5.vim'
+Plugin 'mustache/vim-mustache-handlebars'
 
-Bundle 'elzr/vim-json'
+Plugin 'elzr/vim-json'
 
-"Bundle 'marijnh/tern_for_vim'
-"Bundle 'Valloric/YouCompleteMe'
+"Plugin 'marijnh/tern_for_vim'
+"Plugin 'Valloric/YouCompleteMe'
 
 " To use in col control.
-Bundle 'godlygeek/tabular'
+Plugin 'godlygeek/tabular'
 
-Bundle 'bling/vim-airline'
-Bundle 'plasticboy/vim-markdown'
+Plugin 'bling/vim-airline'
+Plugin 'plasticboy/vim-markdown'
 
 
 " All of your Plugins must be added before the following line

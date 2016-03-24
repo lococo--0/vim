@@ -6,13 +6,10 @@ mkdir backup
 mv ~/.vim ./backup/vim
 mv ~/.vimrc ./backup/vimrc
 
-# install
+# setup vim conf
 cp vimrc ~/.vimrc
 cp -r ./vim ~/.vim
 
-git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-
-
-# cp -rf indent ~/.vim
-
-vim -c ":BundleInstall" -c "qa"
+# install vundle and plugins
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
