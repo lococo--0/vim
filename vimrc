@@ -77,8 +77,8 @@ set number
 set ruler
 
 " Show the cross cursor
-set cursorline
-set cursorcolumn
+"set cursorline
+"set cursorcolumn
 
 " Show the status line
 set laststatus=2
@@ -93,8 +93,8 @@ set matchtime=0
 syntax on
 
 " Unified color scheme (default: dark)
-" let g:seoul256_background = 0
-colo seoul256
+ "let g:seoul256_background = 0
+colorscheme railscasts
 
 "
 set guifont=Source\ Code\ Pro\ ExtraLight:h13
